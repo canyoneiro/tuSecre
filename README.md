@@ -1,2 +1,2 @@
-tuSecre app.
+tuSecre app
 # tuSecre

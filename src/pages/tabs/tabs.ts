@@ -1,19 +1,27 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { Tabs } from 'ionic-angular';
 
-import { AboutPage } from '../about/about';
-import { ContactPage } from '../contact/contact';
-import { HomePage } from '../home/home';
+import { DashboardPage } from '../dashboard/dashboard';
+import { TaskPage } from '../task/task';
+import { NotesPage } from '../notes/notes';
+import { CalendarPage } from '../calendar/calendar';
+import { ProfilePage } from '../profile/profile';
 
 @Component({
-  templateUrl: 'tabs.html'
+  selector: 'page-tab',
+  templateUrl: 'tabs.html',
 })
 export class TabsPage {
 
-  tab1Root = HomePage;
-  tab2Root = AboutPage;
-  tab3Root = ContactPage;
+
+  tab1Root = DashboardPage;
+  tab2Root = TaskPage;
+  tab3Root = NotesPage;
+  tab4Root = CalendarPage;
+  tab5Root = ProfilePage;
 
   constructor() {
 
   }
+
 }
