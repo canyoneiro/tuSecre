@@ -1,2 +1,1 @@
-tuSecre app
 # tuSecre
